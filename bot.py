@@ -9,8 +9,8 @@ from telegram.ext import (
     filters
 )
 
-# Токен з Render (береться з Environment Variables)
-TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+
 
 # Дані користувачів
 user_data = {}
