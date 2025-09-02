@@ -9,7 +9,7 @@ from telegram.ext import (
     filters
 )
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 
 # Дані користувачів
